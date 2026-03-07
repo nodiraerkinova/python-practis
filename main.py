@@ -1,0 +1,22 @@
+print("Assalom aleykum")
+print('Hi guys')
+print("lorem ipsun")
+print('Men "Lenovo" markasidagi kompyuter ishlataman')
+print("Men 'Lenovo' markasidagi kompyuter ishlataman")
+print("Odami ersang, demagil odami, \n Oniki, yo'q xalq g'amidin g'ami")\
+# Arifmetik amallar
+print(5 + 6)
+print(15 / 5, 12 * 5, 52 + 17)
+print(15 // 7)
+print(7 ** 4)
+print(64 ** (1 / 2))
+print(4 % 7)
+print("Beshning kvadrati", 5 ** 2, "ga tang")
+# Amaliyit 
+print("\"Nexia\", \"Tico\", 'Damas' ko'rganlar qilar havas")
+print("Beshning 4-darajasi", 5 ** 4)
+print("22 ning 4 ga bo'lganda qoldiq", 22 % 4, "ga teng")
+print("yuzi", 125 * 125, "peremetri", 125 * 4)
+print("Diametri 12 ga teng bo'lgan doiraning yuzini", 3.14 * (12 / 2** 2))
+print("Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasi", (6 ** 2 + 7 ** 2) ** (1 / 2), "ga teng")
+print("Tomonlari 3, 4, 5 bo'lgan uchburchakning yuzi", ((3 + 4 + 5) / 2  * ((3 + 4 + 5) / 2  - 3) * ((3 + 4 + 5) / 2  - 4) * ((3 + 4 + 5) / 2  - 5)) ** (1 / 2))
