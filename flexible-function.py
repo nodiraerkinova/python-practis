@@ -65,9 +65,7 @@ def t_haqida(ism, familiya, **qoshimcha_malumotlar):
         "ism": ism,
         "familiya": familiya
     }
-    
-    talaba.update(qoshimcha_malumotlar)
-    
+        
     return talaba
 
 talaba1 = t_haqida("Lobar", "Ramatova", yosh = 20)
