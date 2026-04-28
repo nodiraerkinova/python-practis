@@ -202,3 +202,7 @@
 # numbers[k - 1] = max_value
 
 # print(numbers) 
+n = int(input())
+while n >= 10:
+    n //= 10
+print(n)
