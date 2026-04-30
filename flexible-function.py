@@ -52,22 +52,38 @@
 
 # Amaliyot
 # 1
-def kopaytma(*numbers):
-    s = 1
-    for number in numbers:
-        s *= number
-    return s
-print(kopaytma(1, 2, 3, 4, 5)) 
+# def kopaytma(*numbers):
+#     s = 1
+#     for number in numbers:
+#         s *= number
+#     return s
+# print(kopaytma(1, 2, 3, 4, 5)) 
 
-# 2
-def t_haqida(ism, familiya, **qoshimcha_malumotlar):
-    talaba = {
-        "ism": ism,
-        "familiya": familiya
-    }
+# # 2
+# def t_haqida(ism, familiya, **qoshimcha_malumotlar):
+#     talaba = {
+#         "ism": ism,
+#         "familiya": familiya
+#     }
         
-    return talaba
+#     return talaba
 
-talaba1 = t_haqida("Lobar", "Ramatova", yosh = 20)
+# talaba1 = t_haqida("Lobar", "Ramatova", yosh = 20)
 
-print(talaba1)
+# print(talaba1)
+
+
+# Topshiriq
+def find_max(*numbers):
+    if len(numbers) == 0:
+        return None
+    
+    max_num = numbers[0]
+    for num in numbers:
+        if num > max_num:
+            max_num = num
+
+    return max_num
+
+print(find_max(3, 5, 2, 8, 1)) 
+
